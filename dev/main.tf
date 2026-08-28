@@ -12,4 +12,5 @@ module "ec2" {
   instance_type = var.instance_type
   subnet_id     = module.vpc.public_subnet_id
   instance_name = var.instance_name
+  key_name      = "Test-Ec2"
 }
