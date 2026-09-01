@@ -6,5 +6,6 @@
 crash.log
 crash.*.log
 *.tfplan
+tfplan
 # Keep Terraform dependency lock file
 !.terraform.lock.hcl

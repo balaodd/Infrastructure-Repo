@@ -1,12 +1,12 @@
 # Development environment Terraform configuration
 module "vpc" {
-  source = "../Modules/vpc"
+  source = "../modules/vpc"
 
   vpc_cidr = var.vpc_cidr
 }
 module "ec2" {
 
-  source = "../Modules/ec2"
+  source = "../modules/ec2"
 
   ami_id        = var.ami_id
   instance_type = var.instance_type
